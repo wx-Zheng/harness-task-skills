@@ -14,12 +14,22 @@ It applies the Harness methodology with strict Generator/Evaluator separation, f
 - Resume interrupted runs and archive completed ones
 - Track execution state in files so progress is inspectable and recoverable
 
-## Repository Contents
+## Repository Structure
+
+```text
+harness-task/
+├── SKILL.md
+├── scripts/
+├── references/
+│   ├── examples.md
+│   └── methodology.md
+└── assets/
+```
 
 - `SKILL.md`: executable skill definition
-- `examples.md`: usage examples and common scenarios
-- `methodology.md`: background on the Harness methodology
-- `scripts/`: reserved for helper scripts
+- `scripts/`: helper scripts used by the skill
+- `references/`: supporting docs and usage references
+- `assets/`: static assets reserved for future use
 
 ## Usage
 
