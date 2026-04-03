@@ -1,1 +1,4 @@
 .DS_Store
+.harness/
+.playwright-cli/
+assets/snake-demo/
